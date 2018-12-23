@@ -14,5 +14,5 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi() {
   let employee = retrieveEmployeeInformation()
-  $('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`)
+  $('.employee-list').insertAdjacentHTML('beforeend', `<li>${employee}</li>`)
 }
