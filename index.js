@@ -16,3 +16,7 @@ function addNewElementAsLi() {
   let employee = retrieveEmployeeInformation()
   document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employee}</li>`)
 }
+
+function addNewLiOnClick() {
+    let submit = document.querySelector('input[type="submit"]');
+}
