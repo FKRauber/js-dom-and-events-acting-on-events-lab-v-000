@@ -26,9 +26,9 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  
+
 }
 
 function resetInput() {
-  document.querySelector('input').value="";
+  document.querySelector('input').value='';
 }
